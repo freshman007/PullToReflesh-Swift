@@ -10,7 +10,6 @@ Inspired by https://dribbble.com/shots/2542648-Daily-UI-094-News
 ## Wrap your scrollView
 
 ``` 
-// Please wrap your scroll view
 let tableViewWrapper = PullToRefleshView(scrollView: yourTableView)
 bodyView.addSubview(tableViewWrapper)
 
