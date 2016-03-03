@@ -2,12 +2,12 @@
 
 Inspired by https://dribbble.com/shots/2542648-Daily-UI-094-News
 
-# ScreenShot
+## ScreenShot
 ![Demo GIF Animation](https://d13yacurqjgara.cloudfront.net/users/141880/screenshots/2542648/dailyui-094.gif "Demo GIF Animation")
 
-# Usage
+## Usage
 
-## Wrap your scrollView
+### Wrap your scrollView
 
 ``` 
 let tableViewWrapper = PullToRefleshView(scrollView: yourTableView)
@@ -17,7 +17,7 @@ bodyView.addSubview(tableViewWrapper)
 The color of the wrapper will be same as your scrollView's background color.
 
 
-## Handler
+### Handler
 
 ``` 
 tableViewWrapper.didPullToRefresh = {
