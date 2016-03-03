@@ -29,7 +29,6 @@ class TableViewExample: UIViewController {
         self.view.addSubview(headerView_down)
         
         let tableView = SampleTableView(frame: self.view.frame, style: UITableViewStyle.Plain)
-        //🌟 Usage
         let tableViewWrapper = PullToRefleshView(scrollView: tableView)
         bodyView.addSubview(tableViewWrapper)
 
