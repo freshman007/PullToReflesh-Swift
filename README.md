@@ -134,6 +134,9 @@ public convenience init(arcCenter center: CGPoint, radius: CGFloat, startAngle: 
                 self.floatUpOrDown()
             })
 ``` 
+## 总结：
+>这一次的demo比较简单，还是花了两天半的时间，如果说有什么感想，就还是需要继续努力。
+
 
 ## Usage
 
@@ -160,6 +163,4 @@ You can end the reflesh simplily
  tableViewWrapper.endReflesh()
 ```
 
-## 总结：
->这一次的demo比较简单，还是花了两天半的时间，如果说有什么感想，就还是需要继续努力。
 
