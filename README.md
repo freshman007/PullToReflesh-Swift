@@ -107,10 +107,10 @@ public convenience init(arcCenter center: CGPoint, radius: CGFloat, startAngle: 
 >这一部分，如何去做更重要，牵扯到很多小细节，代码就不贴了，请看项目文件
 
 #### 草稿思维图
-![](http://i13.tietuku.cn/2d1994c81cc80af6.jpg)
+![](http://i4.tietuku.cn/04fe913127f6904e.jpg)
 ![](http://7xrn7f.com1.z0.glb.clouddn.com/16-3-11/96817311.jpg)
 ##### 求x,y
-![](http://i13.tietuku.cn/b8f7511f9c58a752.jpg)
+![](http://i4.tietuku.cn/8ccd608263376e9e.jpg)
 ![](http://7xrn7f.com1.z0.glb.clouddn.com/16-3-11/94836323.jpg)
 ### 小球的浮动动画
 小球的浮动只是简单的上下位置的变换，值得注意的是每颗小球开始动画的时间点存在差值，这个差值使得小球有了错位浮动的效果，下面是代码：
