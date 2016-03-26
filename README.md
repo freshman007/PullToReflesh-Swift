@@ -145,7 +145,6 @@ public convenience init(arcCenter center: CGPoint, radius: CGFloat, startAngle: 
 ``` 
 let tableViewWrapper = PullToRefleshView(scrollView: yourTableView)
 bodyView.addSubview(tableViewWrapper)
-
 ```
 The color of the wrapper will be same as your scrollView's background color.
 
