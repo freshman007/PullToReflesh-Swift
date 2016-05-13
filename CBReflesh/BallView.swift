@@ -11,6 +11,7 @@ import UIKit
 private var upDuration: Double!
 private var ballSize: CGFloat!
 private var ballSpace: CGFloat!
+private var SuperFrameWidth: CGFloat!;
 
 class BallView: UIView {
     
@@ -23,6 +24,7 @@ class BallView: UIView {
         upDuration = moveUpDuration
         ballSize = circleSize
         ballSpace = ballSpaceBetween
+        SuperFrameWidth = frame.width
         
         super.init(frame:frame)
         
@@ -128,7 +130,7 @@ class CircleLayer :CAShapeLayer {
         let angle_1 = atan(Double(abs(distance_left)) / Double(distance_up))
         let angle_2 = M_PI -  angle_1 * 2
         let radii: Double = pow((pow(Double(distance_left), 2)) + pow(Double(distance_up), 2), 1 / 2) / (cos(angle_1) * 2)
-        let centerPoint: CGPoint = CGPoint(x: 160 - distance_left, y: CGFloat(radii) - distance_up)
+        let centerPoint: CGPoint = CGPoint(x: SuperFrameWidth/2 - distance_left, y: CGFloat(radii) - distance_up)
         var endAngle: CGFloat = CGFloat(3 * M_PI_2)
         var startAngle: CGFloat = CGFloat(3 / 2 * M_PI - angle_2)
         var bezierPath = UIBezierPath()

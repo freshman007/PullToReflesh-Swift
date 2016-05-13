@@ -82,7 +82,7 @@ class SampleCell: UITableViewCell {
         self.selectionStyle = .None
         let iconMock = UIView()
         iconMock.backgroundColor = UIColor.whiteColor()
-        iconMock.frame = CGRect(x: 10, y: 10, width: self.frame.width - 20, height: 75)
+        iconMock.frame = CGRect(x: 10, y: 10, width: UIScreen.mainScreen().bounds.size.width - 20, height: 75)
         self.addSubview(iconMock)
         
     }
